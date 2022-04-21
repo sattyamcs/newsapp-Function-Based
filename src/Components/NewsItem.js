@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 
 const NewsItem =(props)=> {
         let{title,description,imageUrl,newsUrl,date,author,source}=props; //Props in class used like destructring as we seen in js
